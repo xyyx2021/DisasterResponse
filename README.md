@@ -27,8 +27,13 @@ More details abot the three components in this repository as below:
 
 * User friendly web interface to classify any new message from user's input
 
+## Installation:
+Dependecies
+* Python 3.5+
+* Libraries: Numpy, Scipy, Pandas, Sciki-Learn, NLTK, SQLalchemy, Pickle, Flask, Plotly
 
-### Instructions:
+
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -40,3 +45,7 @@ More details abot the three components in this repository as below:
     `python app/run.py`
 
 3. Test the web app at https://view6914b2f4-3001.udacity-student-workspaces.com/
+
+## Acknowledgements
+* [Udacity](https://www.udacity.com/) for setting up this interesting project for Data Science Nanodegree Program
+* [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train
